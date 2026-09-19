@@ -2,7 +2,7 @@
 
 Ask a business question in plain English. The app writes the SQL, runs it safely against a rental-car database, and returns a table and chart.
 
-> \*\*"Top 3 cities by revenue in the last 90 days"\*\* → correct 3-table join, date filter, grouped result, bar chart — no SQL written by the user.
+> \\\*\\\*"Top 3 cities by revenue in the last 90 days"\\\*\\\* → correct 3-table join, date filter, grouped result, bar chart — no SQL written by the user.
 
 \---
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 cp .env.example .env
 
 # 4. Build the database
-python generate\_data.py
+python generate\\\_data.py
 
 # 5. Launch
 streamlit run app.py
@@ -78,5 +78,5 @@ The agent was tested against 10 analytical questions of increasing difficulty (a
 
 ## About
 
-Built by [Mansi Thapliyal](https://www.linkedin.com/in/mansi-thapliyal-21699617a) — Data Analyst (BCG X) exploring the AI-application layer on top of 4 years of SQL, ETL, and BI experience.
+Built by [Mansi Thapliyal](https://www.linkedin.com/in/mansi-thapliyal-21699617a) — Data Analyst exploring the AI-application layer on top of 4 years of SQL, ETL, and BI experience.
 
